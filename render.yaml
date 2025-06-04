@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: college-recommender
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app
+    autoDeploy: true
