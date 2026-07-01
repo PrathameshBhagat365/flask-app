@@ -1,4 +1,3 @@
-name = "Alice"          # string
-age = 25                 # integer
-height = 5.6              # float
-is_student = True         # boolean
+print("Hello, World!")
+user_name = input("Enter your name: ")
+print(f"Hello, {user_name}!")
